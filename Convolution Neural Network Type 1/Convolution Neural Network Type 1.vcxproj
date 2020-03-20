@@ -151,7 +151,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="CLayer.h" />
+    <ClInclude Include="FNet.h" />
+    <ClInclude Include="Model.h" />
+    <ClInclude Include="Neuron.h" />
     <ClInclude Include="pch.h" />
+    <ClInclude Include="PoolingLayer.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Convolution Neural Network Type 1.cpp" />

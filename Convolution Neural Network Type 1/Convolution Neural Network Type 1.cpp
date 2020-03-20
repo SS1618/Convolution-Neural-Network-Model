@@ -3,10 +3,13 @@
 
 #include "pch.h"
 #include <iostream>
-
+#include "Model.h"
 int main()
 {
-    std::cout << "Hello World!\n"; 
+	vector<vector<vector<unsigned>>> conv_param = { {{5,5, 10, 10}}, {{5,5, 10, 10}} };
+	vector<vector<unsigned>> pool_param = { {2,2}, {2,2} };
+	vector<unsigned> nn_param = { 10, 2 };
+	Model model(conv_param, pool_param, nn_param);
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
